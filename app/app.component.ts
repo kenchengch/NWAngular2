@@ -7,7 +7,7 @@ export class Hero {
   selector: 'my-app',
   template:`
     <h1>{{title}}</h1>
-    <h2>My Heroes 2</h2>
+    <h2>My Heroes 3</h2>
     <ul class="heroes">
       <li *ngFor="#hero of heroes"
         [class.selected]="hero === selectedHero"
